@@ -1,0 +1,123 @@
+---
+title: Schedule
+---
+
+<div class="limit limit--top-margin">
+
+  {% include schedule/intro.html date='29 Novembre' %}
+
+  <div class="schedule" data-dates="11-29">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html tracks='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
+        {% include schedule/event.html time='9.55-10.05' title='Presentazione Laravel Italia' fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='10.10-11.00' title="Test Driven Development con Laravel"  fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='11.00-11.30' title='Short break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='11.30-12.20' title='Controllers, Policies e richieste asincrone' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='12.25-13.15' title="Laravel the Lego™ Way" fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='13.15-14.30' title='Lunch' icon="food" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='14.30-14.55' title='Laravel Notification System 201' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='15.00-15.25' title='MongoDB vs MySQL in applicazioni Laravel' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='15.30-15.55' title="Creazione di package Laravel" fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='15.55-16.30' title='Short break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='16.30-16.55' title='Service Container Deep Dive' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='17.00-17.25' title='Laravel applicato alle piattaforme e-commerce cloud' fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='17.25-17.35' title='Bye bye from GrUSP' fill='true' %}
+
+        {% include schedule/pause.html time='17.35-18.30' title='Happy hour' icon="bar" fill='true' %}
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule schedule--mobile" data-dates="11-29">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html track='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='9.15-9.45' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.45-9.55' title='Presentazione GrUSP' fill='true' %}
+        {% include schedule/event.html time='9.55-10.05' title='Presentazione Laravel Italia' fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='10.10-11.00' title="Test Driven Development con Laravel"  fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='11.00-11.30' title='Short break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='11.30-12.20' title='Controllers, Policies e richieste asincrone' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='12.25-13.15' title="Laravel the Lego™ Way" fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='13.15-14.30' title='Lunch' icon="food" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='14.30-14.55' title='Laravel Notification System 201' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='15.00-15.25' title='MongoDB vs MySQL in applicazioni Laravel' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='15.30-15.55' title="Creazione di package Laravel" fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='15.55-16.30' title='Short break' icon="coffee" fill='true' %}
+
+        <tr>
+          {% include schedule/talk.html time='16.30-16.55' title='Service Container Deep Dive' fill='true' %}
+        </tr>
+
+        <tr>
+          {% include schedule/talk.html time='17.00-17.25' title='Laravel applicato alle piattaforme e-commerce cloud' fill='true' %}
+        </tr>
+
+        {% include schedule/pause.html time='17.25-17.35' title='Bye bye from GrUSP' fill='true' %}
+
+        {% include schedule/pause.html time='17.35-18.30' title='Happy hour' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}

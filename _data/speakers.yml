@@ -1,0 +1,46 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+list:
+  -
+    id: alessandro-cappellozza
+    description: Team Leader, Seneca
+    image: alessandro-cappellozza.jpg
+    first_name: Alessandro
+    last_name: Cappellozza
+    twitter: acappellozza
+  -
+    id: leonardo-rossi
+    description: >
+      Senior Software Engineer, NearForm
+    image: leonardo-rossi.jpg
+    first_name: Leonardo
+    last_name: Rossi
+    twitter: leorossi
+  -
+    id: antonello-dippolito
+    description: >
+      Software engineer / Scrum master, VONQ
+    image: antonello-dippolito.jpg
+    first_name: Antonello
+    last_name: D'Ippolito
+    twitter: antodippo
+#  -
+#    id: riccardo-scasseddu
+#    description: >
+#      Laureato in informatica nel 2018 con una tesi riguardante lo sfruttamento delle falle di
+#      sicurezza presenti nelle reti automotive (CAN Bus). Dal 2019 è CTO di Playcar, azienda leader nel campo della
+#      shared mobility con la piattaforma SaaS "Playmoove".
+#    image: riccardo-scasseddu.jpg
+#    first_name: Riccardo
+#    last_name: Scasseddu
+#    twitter: ennetech
+#  -
+#    id: roberto-gallea
+#    description: >
+#      Lavora presso l'Area Servizi a Rete dell'Università degli Studi di Palermo. Dottore di Ricerca in
+#      Ingegneria Informatica progetta e sviluppa software ed hardware per il web, l'IoT e la sintesi audio per
+#      strumentazioni elettroniche. Autore di numerose pubblicazioni scientifiche e formatore in ambito professionale,
+#      scolastico ed accademico.
+#    image: roberto-gallea.jpg
+#    first_name: Roberto
+#    last_name: Gallea

@@ -1,0 +1,34 @@
+-
+  speaker_id:
+    - alessandro-cappellozza
+  title: "LiveWire Hands-on, frontend moderno senza toccare una riga di javascript"
+  extract: >
+    Sappiamo tutti che per avere un frontend al passo coi tempi è necessario fare spesso due progetti uno di frontend e
+    uno backend distinti e specializzati,complicando sia lo sviluppo che il deploy delle applicazioni.
+    Questo nuovo strumento si prefigge di colmare questo gap consentendo di creare componenti "ajax" con il solo PHP;
+    una strada già battuta da altri linguaggi ma con un approccio nuovo già usato da grossi portali, qui lo vedremo
+    pacchettizzato e standardizzato per Laravel.
+    Analizzeremo il principio di funzionamento, cosa mette a disposizione di base, un esempio pratico e dei contesti
+    dove può effettivamente essere utile.
+-
+  speaker_id:
+    - leonardo-rossi
+  title: Laravel Authentication Deep Dive
+  extract: >
+    Facciamo un tuffo nel sistema di autenticazione utenti di Laravel: vedremo come funziona l'autenticazione standard
+    e come creare dei sistemi alternativi utilizzando diversi tipi di database e servizi esterni come Auth0, AWS Cognito,
+    Google Identity Platform etc...
+-
+  speaker_id:
+    - antonello-dippolito
+  title: How can I trust my test suite?
+  extract: >
+    You just started working on a new project. Or maybe you've been working on it since some time, and it evolved a lot,
+    thanks to many different developers. This means that you probably don't have enough knowledge on how the automated
+    tests are written, and how effective they are.
+    So, how can you be confident to ship new features in production, or to refactor that old piece of software that's
+    slowing you down? Are you fairly sure that if your CI build is green you're not gonna break anything?
+    There are a lot of tools out there that give you some numbers about your code and your tests, like code coverage
+    and CRAP metrics, but they are significant up to some extent.
+    In this talk, we will see how can you measure the effectiveness of your test suite, how you can actually improve it,
+    and what are the benefits of having a reliable and comprehensive set of automated tests.
