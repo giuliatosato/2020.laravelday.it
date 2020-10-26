@@ -1,8 +1,8 @@
 name: laravelday
-og_image: http://2020.laravelday.it/img/confs/laravelday/ogimage.png
+og_image: https://2020.laravelday.it/img/confs/laravelday/ogimage.png
 og_description: La prima conferenza italiana dedicata a Laravel
 slug: laravelday
-url: http://2020.laravelday.it
+url: https://2020.laravelday.it
 where_when: Online, 26 Novembre 2020
 year: 2020
 since: 2017
