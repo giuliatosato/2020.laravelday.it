@@ -1,0 +1,11 @@
+# place images in:
+# img/conf-name/community/file.jpg
+
+list:
+  - name: PUG Romagna
+    image: pug-romagna.svg
+    site: https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
+
+  - name: devRomagna
+    image: devromagna.svg
+    site: https://devromagna.org/

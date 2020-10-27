@@ -118,9 +118,26 @@
         <div class="sponsors__title-right">
           Media partners
         </div>
-        <div class="sponsors__partner" id="media-partners" data-tags="css frontend"></div>
+        <div class="sponsors__partner" id="media-partners" data-name="laravelday" data-tags="php backend"></div>
       </div>
       {% endif %}
+
+      <div class="sponsors__category">
+        <div class="sponsors__title-right">
+          community
+        </div>
+        <div class="sponsors__partner">
+          {% assign sorted = site.data.community.list | sort: 'name' %}
+          {% for community in sorted %}
+          <div class="sponsors__partner-column">
+            <a href="{{ community.site }}" title="{{ community.name }}" class="sponsors__link">
+              <div style="background-image: url({{ site.baseurl }}/img/{{ site.data.conference.slug }}/community/{{ community.image }})" class="sponsors__image"></div>
+            </a>
+          </div>
+          {% endfor %}
+
+        </div>
+      </div>
 
     </div>
   </div>
