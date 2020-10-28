@@ -2,6 +2,12 @@
 # img/conf-name/speaker/file.jpg
 list:
   -
+    id: valerio-barbera
+    description: CTO, Inspector
+    image: valerio-barbera.jpg
+    first_name: Valerio
+    last_name: Barbera
+  -
     id: alessandro-cappellozza
     description: Team Leader, Seneca
     image: alessandro-cappellozza.jpg
@@ -24,16 +30,14 @@ list:
     first_name: Antonello
     last_name: D'Ippolito
     twitter: antodippo
-#  -
-#    id: riccardo-scasseddu
-#    description: >
-#      Laureato in informatica nel 2018 con una tesi riguardante lo sfruttamento delle falle di
-#      sicurezza presenti nelle reti automotive (CAN Bus). Dal 2019 è CTO di Playcar, azienda leader nel campo della
-#      shared mobility con la piattaforma SaaS "Playmoove".
-#    image: riccardo-scasseddu.jpg
-#    first_name: Riccardo
-#    last_name: Scasseddu
-#    twitter: ennetech
+  -
+    id: riccardo-scasseddu
+    description: >
+      CTO, Playcar SRL
+    image: riccardo-scasseddu.jpg
+    first_name: Riccardo
+    last_name: Scasseddu
+    twitter: ennetech
 #  -
 #    id: roberto-gallea
 #    description: >

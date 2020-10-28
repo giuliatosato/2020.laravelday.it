@@ -1,5 +1,15 @@
 -
   speaker_id:
+    - valerio-barbera
+  title: Come ho sviluppato e scalato un prodotto SaaS grazie a Laravel
+  extract: >
+    In questo talk mostrerò tutte le strategie di sviluppo che ho utilizzato per implementare e scalare un prodotto
+    SaaS utilizzando Laravel per la gestione di grandi quantità di traffico. Partendo dall'evoluzione del codice
+    vedremo come ho configurato l'ambiente di sviluppo, l'integrazione con sistemi esterni attraverso i driver, l'uso
+    massivo del sistema Queue/Jobs e l'impatto sul Database, fino alla parte più infrastrutturale con la suddivisione
+    dell'applicazione su più server specializzati e il deploy.
+-
+  speaker_id:
     - alessandro-cappellozza
   title: "LiveWire Hands-on, frontend moderno senza toccare una riga di javascript"
   extract: >
@@ -10,14 +20,6 @@
     pacchettizzato e standardizzato per Laravel.
     Analizzeremo il principio di funzionamento, cosa mette a disposizione di base, un esempio pratico e dei contesti
     dove può effettivamente essere utile.
--
-  speaker_id:
-    - leonardo-rossi
-  title: Laravel Authentication Deep Dive
-  extract: >
-    Facciamo un tuffo nel sistema di autenticazione utenti di Laravel: vedremo come funziona l'autenticazione standard
-    e come creare dei sistemi alternativi utilizzando diversi tipi di database e servizi esterni come Auth0, AWS Cognito,
-    Google Identity Platform etc...
 -
   speaker_id:
     - antonello-dippolito
@@ -32,3 +34,24 @@
     and CRAP metrics, but they are significant up to some extent.
     In this talk, we will see how can you measure the effectiveness of your test suite, how you can actually improve it,
     and what are the benefits of having a reliable and comprehensive set of automated tests.
+-
+  speaker_id:
+    - leonardo-rossi
+  title: Laravel Authentication Deep Dive
+  extract: >
+    Facciamo un tuffo nel sistema di autenticazione utenti di Laravel: vedremo come funziona l'autenticazione standard
+    e come creare dei sistemi alternativi utilizzando diversi tipi di database e servizi esterni come Auth0, AWS Cognito,
+    Google Identity Platform etc...
+-
+  speaker_id:
+    - riccardo-scasseddu
+  title: Organizzazione del codice su Laravel
+  extract: >
+    In questo talk andremo a vedere le tecniche che il team di Playmoove utilizza per tenere organizzata e accessibile
+    la codebase, nello specifico:
+    - Scrittura di API controller
+    - Business logic isolation
+    - Dependency injection
+    - Generazione automagica delle API docs
+    - Traduzioni
+    - Configurazione dinamica globale
