@@ -1,113 +1,116 @@
 ---
-title: "Event Sourcing con Laravel"
+title: "Applicazioni complesse con Laravel: architetture package-based"
 ---
-​
+
 <div class="limit">
-  ​
+  
   <div class="intro intro--no-height">
-    <h1 class="intro__title">Event Sourcing con Laravel</h1>
+    <h1 class="intro__title">Applicazioni complesse con Laravel: architetture package-based</h1>
   </div>
-  ​
-  <h1 class="row__title">Giovedì 28 Novembre 2019, Verona</h1>
-  <h3 class="row__title">Registrazione 9:00 - 9:30 / Workshop 9:30 - 17:30 (con pause pranzo e caffè)</h3>
-  <h3 class="row__title">Hotel San Marco, Via Longhena 42, 37138, Verona, Italia <a href="https://goo.gl/maps/iqQ6n6bNAf72" class="link" target="_blank">come raggiungerci</a></h3>
+  
+  <h1 class="row__title">Il workshop si svolge online, in aula virtuale.</h1>
+  <h3 class="row__title">La durata del workshop è di 8 ore, suddivise in due mattine, Venerdì 27 Novembre e Lunedì 30 Novembre 2020.</h3>
   <h3 class="row__title">Un workshop realizzato in collaborazione con
-    <a href="https://github.com/damianopetrungaro/?utm_source=laravelday">Damiano Petrungaro</a>
+    <a href="https://www.linkedin.com/in/robertogallea/">Roberto Gallea</a>.
   </h3>
-  ​
+
   <div class="row row--2">
-    <p class="row__column">
-      Il corso ha l'obiettivo di sviluppare un'applicazione con Laravel implementando CQRS ed ES con una spolverata di
-      DDD.
-      Si partirà dalla teoria fino ad arrivare ad un'implementazione con casi d'uso reali.<br>​
-    </p>
-    ​
-    <p class="row__column">
-    </p>
-    ​
+    <div class="row__column">
+      Il workshop ha l'obiettivo di sviluppare un'applicazione con Laravel sviluppata in "moduli" implementati come
+      package separati, quanto più possibile indipendenti fra loro, ottenendo una soluzione intermedia fra il monolite e
+      l'architettura service-based. Questa modalità comprende gran parte dei vantaggi di entrambi e ne limita i
+      rispettivi svantaggi.<br /><br />
+
+      Verranno affrontati sia aspetti teorici che pratici:<br />
+
+      <ul>
+        <li>Principi di Clean Architecture (disaccoppiamento, coesione dei moduli, eliminazione dei cicli di dipendenze, etc.)</li>
+        <li>Sviluppo di package Laravel (Service Provider, Facade, Configurazione, etc.)</li>
+        <li>TDD ed Integration testing (Test in isolamento, mockups, dummy objects)</li>
+        <li>Riuso dei package per customizzare le applicazioni</li>
+      </ul>
+    </div>
+
+    <div class="row__column">
+      Cosa ottieni frequentando questo workshop:<br />
+
+      <ul>
+        <li>Capacità di sviluppare package Laravel</li>
+        <li>Capacità di sapere sviluppare applicazioni modulari in modo corretto</li>
+        <li>Conoscenza applicativa della gestione delle dipendenze all'interno del codice</li>
+        <li>Capacità di applicare l'Isolation testing di singoli moduli</li>
+        <li>Bonus tips</li>
+      </ul>
+    </div>
+
     <p class="row__column">
       <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
     </p>
-    ​
+
   </div>
-  ​
+
+  <hr class="hr">
+
   <h2 class="row__title">Programma</h2>
-  ​
+  
   <div class="row row--1">
     <div class="row__column">
-      <p class="row__text">
-        Cosa è CQRS
-      <ul>
-        <li>Overview teorica ed origini</li>
-        <li>Quando usarlo</li>
-      </ul>
-      Cosa è Event Sourcing
-      <ul>
-        <li>Overview teorica ed origini</li>
-        <li>Quando usarlo</li>
-      </ul>
-      Differenze ed integrazioni tra CQRS ed ES
-      Overview dei componenti principali per l'implementazione
-      <ul>
-        <li>Command</li>
-        <li>Aggregate (AggregateRoot e ValueObject)</li>
-        <li>Events</li>
-        <li>Event Store</li>
-        <li>Projector e Projection</li>
-        <li>Query</li>
-        <li>ReadModel</li>
-      </ul>
-      Hands-on
-      <ul>
-        <li>Scelta tra le varie librerie disponibili (analizzando i punti forti e deboli).</li>
-        <li>Implementazione di un caso d'uso reale su Laravel</li>
-      </ul>
-      Unit and Integration tests, cosa cambia?
-      Introdurre una breaking change su un evento
-      <ul>
-        <li>Cosa succede e come gestirla</li>
-      </ul>
-      </p>
+      <div class="row__text">
+        Cosa è l’architettura package-based
+        <ul>
+          <li>Overview teorica</li>
+          <li>Quando e perché usarla</li>
+        </ul>
+        Sviluppo di package Laravel
+        <ul>
+          <li>Introduzione ai package di composer</li>
+          <li>Sviluppo ed implementazione di un package Laravel</li>
+        </ul>
+        Buone prassi per lo sviluppo di applicazioni package-based
+        <ul>
+          <li>Minimizzazione delle dipendenze</li>
+          <li>Rimozione dei cicli</li>
+          <li>Individuazione e definizione dei boundaries</li>
+          <li>Integration testing, test doubles, dummy classes and mocks</li>
+        </ul>
+        Hands-on
+        <ul>
+          <li>Applicazione delle tecniche apprese per l'implementazione di un caso d'uso reale su Laravel</li>
+        </ul>
+      </div>
     </div>
   </div>
-  ​
+  
   <hr class="hr">
-  ​
+  
   <div class="row row--2">
     <div class="row__column">
-      <h3 class="column__title">A chi è rivolto</h3>
-      <p class="row__text">
-        Per il corso si richiede una buona esperienza con PHP, OOP e Laravel.
-      </p>
+      <h3 class="column__title">Requisiti di partecipazione</h3>
+      <div class="row__text">
+        <ul>
+          <li>(Necessaria) Conoscenza base/intermedia di Laravel</li>
+          <li>(Consigliata) Conoscenza base di composer</li>
+          <li>(Consigliata) Conoscenza base di utilizzo di PHPUnit</li>
+        </ul>
+      </div>
     </div>
-    <div class="row__column">
-      <h3 class="column__title">Informazioni utili</h3>
-      <p class="row__text">
-        La durata del corso è di una giornata e <b>si terrà Giovedì 28 Novembre nella stessa location della
-        conferenza</b> (il giorno prima di laravelday).<br>
-        Qualche giorno prima del corso verrà fornito un repository git a tutti i partecipanti, con il codice applicativo
-        e la macchina virtuale per far girare i test e l'applicazione.<br>
-        È responsabilità del partecipante arrivare con la macchina virtuale funzionante o con il progetto funzionante
-        sulla propria macchina locale. Vi daremo tutte le indicazioni utili per la configurazione.
-      </p>
-    </div>
-    ​
+    
     <p class="row__column">
     </p>
-    ​
+    
     <p class="row__column">
       <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register">Registrati</a>
     </p>
-    ​
+    
   </div>
-  ​
+  
   <hr class="hr">
-  ​
+  
   <div class="intro intro--no-height">
     <h1 class="column__title"><a href="{{ site.data.tickets.url }}">Iscriviti ora</a> i posti sono limitati</h1>
   </div>
-  ​
+  
 </div>
-​
+
 {% include index/newsletter.html %}
 {% include index/sponsors.html %}
