@@ -6,6 +6,10 @@ list:
     image: pug-romagna.svg
     site: https://www.meetup.com/it-IT/PUG-Romagna-PHP-User-Group-Romagnolo/
 
+  - name: PUG Rovigo
+    image: pug-rovigo.svg
+    site: https://rovigo.grusp.org/
+    
   - name: devRomagna
     image: devromagna.svg
     site: https://devromagna.org/
