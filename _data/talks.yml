@@ -36,6 +36,17 @@
     and what are the benefits of having a reliable and comprehensive set of automated tests.
 -
   speaker_id:
+    - roberto-gallea
+  title: Applicazioni "Modulitiche"
+  extract: >
+    In certi contesti un'applicazione non si presta ad essere racchiusa in un unico pacchetto monolitico, ma non è
+    nemmeno sufficientemente distribuita da essere realizzata mediante un'architettura a servizi. Il paradigma “modulitico”
+    è una soluzione ibrida intermedia fra questi due estremi. Questo approccio, oltre a risolvere problemi di gestione
+    del progetto, richiede l'osservanza e l'applicazione di alcuni concetti fondamentali di Clean code and architecture,
+    elevando il livello di qualità della codebase. Scopriremo quando e perché questa metodologia è uno strumento
+    potente se usato in modo corretto.
+-
+  speaker_id:
     - leonardo-rossi
   title: Laravel Authentication Deep Dive
   extract: >

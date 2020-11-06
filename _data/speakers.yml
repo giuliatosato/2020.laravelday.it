@@ -15,14 +15,6 @@ list:
     last_name: Cappellozza
     twitter: acappellozza
   -
-    id: leonardo-rossi
-    description: >
-      Senior Software Engineer, NearForm
-    image: leonardo-rossi.jpg
-    first_name: Leonardo
-    last_name: Rossi
-    twitter: leorossi
-  -
     id: antonello-dippolito
     description: >
       Software engineer / Scrum master, VONQ
@@ -31,6 +23,21 @@ list:
     last_name: D'Ippolito
     twitter: antodippo
   -
+    id: roberto-gallea
+    description: >
+      Student Office Administrator, Università degli studi di Palermo
+    image: roberto-gallea.jpg
+    first_name: Roberto
+    last_name: Gallea
+  -
+    id: leonardo-rossi
+    description: >
+      Senior Software Engineer, NearForm
+    image: leonardo-rossi.jpg
+    first_name: Leonardo
+    last_name: Rossi
+    twitter: leorossi
+  -
     id: riccardo-scasseddu
     description: >
       CTO, Playcar SRL
@@ -38,13 +45,3 @@ list:
     first_name: Riccardo
     last_name: Scasseddu
     twitter: ennetech
-#  -
-#    id: roberto-gallea
-#    description: >
-#      Lavora presso l'Area Servizi a Rete dell'Università degli Studi di Palermo. Dottore di Ricerca in
-#      Ingegneria Informatica progetta e sviluppa software ed hardware per il web, l'IoT e la sintesi audio per
-#      strumentazioni elettroniche. Autore di numerose pubblicazioni scientifiche e formatore in ambito professionale,
-#      scolastico ed accademico.
-#    image: roberto-gallea.jpg
-#    first_name: Roberto
-#    last_name: Gallea
