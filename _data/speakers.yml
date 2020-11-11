@@ -30,6 +30,13 @@ list:
     first_name: Roberto
     last_name: Gallea
   -
+    id: teo-miscia
+    description: >
+      Backend Developer, Deepcube
+    image: teo-miscia.jpg
+    first_name: Teo
+    last_name: Miscia
+  -
     id: leonardo-rossi
     description: >
       Senior Software Engineer, NearForm

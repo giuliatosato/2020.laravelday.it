@@ -47,6 +47,13 @@
     potente se usato in modo corretto.
 -
   speaker_id:
+    - teo-miscia
+  title: Multi-tenancy in Laravel
+  extract: >
+    Il multi-tenancy è la principale modalità per creare delle SaaS. Analizzeremo cos'è, i pacchetti più noti e creeremo
+    un applicativo di test utilizzando il pacchetto "stancl/tenancy".
+-
+  speaker_id:
     - leonardo-rossi
   title: Laravel Authentication Deep Dive
   extract: >
