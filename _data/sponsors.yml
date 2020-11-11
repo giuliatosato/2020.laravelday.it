@@ -11,10 +11,10 @@ main:
     - Possibilità di tenere un talk tecnico (sono escluse le tematiche commerciali, il talk dovrà essere preapprovato dagli organizzatori)
     - Invio di una DEM alla mailing list
     - Accesso alla lista dei partecipanti alla conferenza
-    - Banchetto principale 2m x 1m
-    - Posizionamento vostro roll-up in sala
-    - Logo sui roll-up dell'evento
-    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette...)
+    - Booth virtuale
+    - Logo in sovraimpressione durante la diretta
+    - Logo e ringraziamenti durante la diretta 
+    - Banner nella digital swag bag
     - Logo nelle comunicazioni pre-evento (mail, social)
     - Logo sul sito
     - 5 biglietti gratuiti
@@ -25,10 +25,10 @@ main:
 platinum:
   price: € 3,000
   offer:
-    - Banchetto 1m x 1m
-    - Posizionamento vostro roll-up in sala
-    - Logo sui roll-up dell'evento
-    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Booth virtuale
+    - Logo in sovraimpressione durante la diretta
+    - Logo e ringraziamenti durante la diretta 
+    - Banner nella digital swag bag
     - Logo nelle comunicazioni pre-evento (mail, social)
     - Logo sul sito
     - 3 biglietti gratuiti
@@ -39,9 +39,9 @@ platinum:
 gold:
   price: € 1,500
   offer:
-    - Posizionamento vostro roll-up in sala
-    - Logo sui roll-up dell'evento
-    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+    - Logo in sovraimpressione durante la diretta
+    - Logo e ringraziamenti durante la diretta 
+    - Banner nella digital swag bag
     - Logo nelle comunicazioni pre-evento (mail, social)
     - Logo sul sito
     - 2 biglietti gratuiti
@@ -54,9 +54,9 @@ gold:
 
 silver:
   price: € 750
-  offer:
-    - Logo sui roll-up dell'evento
-    - Autorizzazione a portare pubblicità e gadget (volantini, adesivi, magliette)
+  offer:   
+    - Logo e ringraziamenti durante la diretta 
+    - Banner nella digital swag bag
     - Logo nelle comunicazioni pre-evento (mail, social)
     - Logo sul sito
     - 1 biglietto gratuito
