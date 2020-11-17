@@ -71,5 +71,3 @@
     - Business logic isolation
     - Dependency injection
     - Generazione automagica delle API docs
-    - Traduzioni
-    - Configurazione dinamica globale
